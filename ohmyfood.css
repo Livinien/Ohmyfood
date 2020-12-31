@@ -1,0 +1,211 @@
+
+*, ::before, ::after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+
+    font-family: 'roboto', sans-serif;
+}
+
+
+
+
+
+
+                            /* HEADER */
+
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.logo img {
+
+    padding: 25px;
+    width: 250px;
+
+}
+                        
+
+
+
+
+
+                            /* PRESENTATION  */
+
+
+#presentation {
+
+    background:#E5E5E5;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: bold;
+    box-shadow: inset 0 23px 5px -20px rgba(0,0,0,0.20);
+    
+}
+
+
+#presentation i {
+
+    font-size: 18px;
+    
+
+}
+
+
+
+#presentation i, .ville {
+
+    margin-right: 30px;
+
+}
+
+
+
+
+
+
+
+                            /* EXPLORER */
+
+
+
+#reservation {
+
+    background: #f2f2f2;
+    padding-bottom: 60px;
+
+}
+
+
+
+#reservation h1, h2, .bouton {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+#reservation h1 {
+
+    
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+
+#reservation h2 {
+
+    font-size: 15px;
+    font-weight: lighter;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+
+.bouton button {
+
+    padding: 20px;
+    border-radius: 50px;
+    font-family: 'robot', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    background-image: linear-gradient(to top, #b442fd, #ca49fa, #de53f7, #ef5df4, #ff69f2);
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+}
+
+
+
+
+
+                    /* FONCTIONNEMENT */
+
+
+.container {
+
+    margin-left: 20px;
+    padding-top: 30px;
+    
+}
+
+
+
+.cases {
+
+    padding-top: 20px;
+    font-size: 12px;
+    width: 95%;
+}
+
+
+
+
+.cases i {
+
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+
+
+.case1 {
+
+    display: flex;
+    padding: 15px;
+    background: #f2f2f2;
+    
+    border-radius: 20px;
+}
+
+
+.case2 {
+
+    display: flex;
+    padding: 15px;
+    margin-top: 30px;
+    background: #f2f2f2;
+    border-radius: 20px;
+    
+}
+
+
+.case3 {
+
+    display: flex;
+    padding: 15px;
+    margin-top: 30px;
+    background: #f2f2f2;
+    border-radius: 20px;
+    
+}
+
+
+
+
+
