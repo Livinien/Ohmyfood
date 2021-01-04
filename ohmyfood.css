@@ -280,6 +280,47 @@ header img {
 
 
 
+.menu_title_container {
+
+    display: flex;
+        
+}
+
+
+.title {
+
+    display: flex;
+    width: 95%;
+
+}
+
+
+a {
+
+    text-decoration: none;
+    color: inherit;
+    
+
+}
+
+
+.menu_title_icon {
+
+    width: 5%;
+    margin-right: 50px;
+    
+}
+
+
+.menu_title_icon i {
+
+    font-size: 25px;
+    padding: 13px;
+    cursor: pointer;
+}
+
+
+
 
 .carte_menu strong, em {
 
@@ -299,36 +340,94 @@ header img {
 }
 
 
-.carte_menu i {
+
+
+.menu_title_icon .far {
+
+    position: absolute;
+    font-size: 1.5em;
+    
+    
+}
+
+
+
+.menu_title_icon .far:hover {
+
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to top, #b442fd, #ca49fa, #de53f7, #ef5df4, #ff69f2);
+    -webkit-background-clip: text;
+    animation: far 2s;
+    
+    
+
+}
+
+
+@keyframes far {
+
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
+
+ /* .menu_title_icon .fas {
 
     position: relative;
-    bottom: 60px;
-    padding: 20px;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 25px;
-    cursor: pointer;
-
-}
-
-
-.carte_menu i:hover {
-
+    right: 0px;
+    top: 0px;
+    font-size: 1.5em;
+    color: #fff;
     
+}  */
+
+
+
+
+
+.menu_title_icon .fas:hover {
+
+    -webkit-text-fill-color: transparent;
     background: linear-gradient(to top, #b442fd, #ca49fa, #de53f7, #ef5df4, #ff69f2);
-
-}
-
-
-
-
-a {
-
-    text-decoration: none;
-    color: inherit;
+    -webkit-background-clip: text;
+    animation: fas 2s;
+    
     
 
 }
+
+
+@keyframes fas {
+
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+
+
+
+.nouveau {
+
+    position: absolute;
+    right: 16px;
+    top: 4px;
+    background: #99e2d0;
+    color: green;
+    padding: 7px;
+    border-radius: 5px;
+
+}
+
 
 
 
