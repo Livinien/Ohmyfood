@@ -216,6 +216,13 @@ header img {
 }
 
 
+.case i {
+
+    color: grey;
+
+}
+
+
 
 .case:hover {
 
@@ -250,7 +257,7 @@ header img {
 
 #restaurants .container {
 
-    padding-top: 50px;
+    padding: 50px 0px 50px;
     
 }
 
@@ -258,11 +265,13 @@ header img {
 
 .carte_menu  {
 
+    position: relative;
     box-shadow: -1px 5px 15px -3px rgba(0,0,0,0.39);
     margin-top: 20px;
     width: 94%;
     height: 230px;
     border-radius: 10px 10px 15px 15px;
+    cursor: pointer;
         
 }
 
@@ -306,8 +315,9 @@ a {
 
 .menu_title_icon {
 
-    width: 5%;
-    margin-right: 50px;
+    width: 20%;
+    margin-right: 10px;
+    color: grey;
     
 }
 
@@ -362,25 +372,20 @@ i {
     background: -webkit-linear-gradient(#FF79DA, #9356DC);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
-    
+
 }
-
-
-  
-
 
 
 
 .nouveau {
 
     position: absolute;
-    right: 16px;
-    top: 4px;
+    right: 10px;
+    top: 12px;
     background: #99e2d0;
-    color: green;
-    padding: 7px;
-    border-radius: 5px;
+    color: #006622;
+    padding: 7px 12px 7px 12px;
+    border-radius: 2px;
 
 }
 
@@ -389,3 +394,67 @@ i {
 
 
 
+                    /* FOOTER */
+
+
+footer {
+
+    background: #3f3e3e;
+    color: white;
+    padding: 0px 0px 40px 0px ;
+}
+
+
+footer img {
+
+    width: 40%;
+    filter: invert(100%);
+    
+
+}
+
+
+.mentions {
+
+    margin-top: 10px;
+
+}
+
+
+.ustensils {
+
+    display: flex;
+
+}
+
+
+.ustensils p {
+
+    margin-left: 10px;
+
+}
+
+
+
+.partenaire {
+
+    margin-top: 10px;
+    display: flex;
+}
+
+
+.partenaire p {
+
+    margin-left: 4px;
+
+}
+
+
+
+.legales span {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
