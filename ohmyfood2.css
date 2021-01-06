@@ -1,0 +1,244 @@
+
+*, ::before, ::after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+
+    font-family: 'roboto', sans-serif;
+    
+}
+
+
+          
+             
+                        
+                        
+                        
+                        
+                        /* HEADER */
+
+
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+header i {
+
+    margin-left: 20px;
+    font-size: 20px;
+    color: #000;
+
+}
+
+
+
+
+header img {
+
+    
+    padding: 25px 30px 25px 0;
+    width: 180px;
+    margin: auto;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+                /* MENU A LA FRANCAISE */
+
+
+#couverture {
+
+    padding: 0;
+    background: #f2f2f2;
+}
+
+
+
+#couverture img {
+    
+    width: 100%;
+    
+}
+
+
+
+.france {
+
+    position: relative;
+    bottom: 30px;
+    border-radius: 30px 30px 0px 0px;
+    background: #f2f2f2;
+
+}
+
+
+
+.france, .menu_title_icon h1 {
+
+    display: flex;
+    align-items: center;
+    font-family: 'shrikhand';
+    padding: 20px 15px 0 20px;
+    
+    
+}
+
+
+.menu_title_icon {
+
+    display: flex;
+    margin-left: 65px;
+    color: grey;
+    
+}
+
+
+.menu_title_icon i {
+
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+
+a {
+
+    text-decoration: none;
+    color: inherit;
+}
+
+
+i {
+
+    font-family: "Font Awesome 5 Free";
+    font-weight: normal;
+    font-style: normal;
+}
+
+.menu_title_icon:hover i {
+
+    font-weight: bold;
+}
+
+.menu_title_icon:hover {
+
+    background: -webkit-linear-gradient(#9356dc, #fa79da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+
+
+                        /* MENU */
+
+
+
+
+.container {
+
+    padding-left: 20px;
+    
+}
+
+
+
+.green_border {
+
+    border-bottom: solid #8ff3da;
+    width: 45px;
+    
+}
+
+
+.green_border:nth-child(5) {
+
+    margin-top: 40px;
+
+}
+
+
+.green_border:nth-child(9) {
+
+    margin-top: 40px;
+
+}
+
+
+
+
+
+.menu h2 {
+
+    font-weight: lighter;
+    font-size: 17px;
+    padding-bottom: 5px;
+
+}
+
+
+.description {
+
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 23px 5px -20px rgba(0,0,0,0.20);
+    cursor: pointer;
+}
+
+
+.plats {
+
+    width: 95%;
+
+}
+
+
+
+.plats span {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    color: grey;
+
+}
+
+
+.tarifs p {
+
+    margin-top: 25px;
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+
+                
