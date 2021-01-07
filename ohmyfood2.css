@@ -37,6 +37,7 @@ header {
 
 header i {
 
+    margin-top: 5px;
     margin-left: 20px;
     font-size: 20px;
     color: #000;
@@ -49,12 +50,10 @@ header i {
 header img {
 
     
-    padding: 25px 30px 25px 0;
+    padding: 15px 30px 15px 0;
     width: 180px;
     margin: auto;
     
-    
-
 }
 
 
@@ -69,7 +68,7 @@ header img {
 
 #couverture {
 
-    padding: 0;
+    padding-bottom: 90px;
     background: #f2f2f2;
 }
 
@@ -78,7 +77,8 @@ header img {
 #couverture img {
     
     width: 100%;
-    
+    height: 240px;
+    object-fit: cover;
 }
 
 
@@ -89,7 +89,7 @@ header img {
     bottom: 30px;
     border-radius: 30px 30px 0px 0px;
     background: #f2f2f2;
-
+    
 }
 
 
@@ -101,14 +101,21 @@ header img {
     font-family: 'shrikhand';
     padding: 20px 15px 0 20px;
     
-    
 }
+
+
+h1 {
+
+    font-size: 23px;
+
+}
+
+
 
 
 .menu_title_icon {
 
-    display: flex;
-    margin-left: 65px;
+    margin-left: 15px;
     color: grey;
     
 }
@@ -192,6 +199,28 @@ i {
 
 
 
+/* UNIQUEMENT "POUR LA NOTE ENCHANTEE" */
+
+.green_border:nth-child(6) {
+
+    margin-top: 40px;
+
+}
+
+
+.green_border:nth-child(10) {
+
+    margin-top: 40px;
+
+}
+
+
+
+
+
+
+/* POUR TOUTES LES PAGES */
+
 .menu h2 {
 
     font-weight: lighter;
@@ -203,7 +232,7 @@ i {
 
 .description {
 
-    margin-top: 20px;
+    margin-top: 15px;
     background: #fff;
     border-radius: 15px;
     padding: 10px;
@@ -211,6 +240,7 @@ i {
     display: flex;
     flex-direction: row;
     box-shadow: 0 23px 5px -20px rgba(0,0,0,0.20);
+    margin-left: -6px;
     cursor: pointer;
 }
 
@@ -227,6 +257,7 @@ i {
 
     display: flex;
     flex-direction: column;
+    font-size: 12px;
     margin-top: 5px;
     color: grey;
 
@@ -235,10 +266,117 @@ i {
 
 .tarifs p {
 
-    margin-top: 25px;
+    margin-top: 22px;
     margin-right: 10px;
     font-weight: bold;
 
 }
 
-                
+
+
+.bouton  {
+
+    display: flex;
+    justify-content: center;
+        
+    
+}
+
+
+button {
+
+    padding: 17px 50px;
+    border-radius: 50px;
+    margin-top: 50px;
+    font-family: 'robot', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    background-image: linear-gradient(to top, #b442fd, #ca49fa, #de53f7, #ef5df4, #ff69f2);
+    box-shadow: -1px 7px 5px -3px rgba(0,0,0,0.39);
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+                    /* FOOTER */
+
+
+
+footer {
+
+    background: #3f3e3e;
+    color: white;
+    padding: 0px 0px 30px 0px ;
+    
+}
+
+
+footer .container {
+
+    padding-top: 30px;
+
+}
+
+
+footer img {
+
+    width: 30%;
+    filter: invert(100%);
+    
+    
+
+}
+
+
+.mentions {
+
+    margin-top: 20px;
+
+}
+
+
+.ustensils {
+
+    display: flex;
+
+}
+
+
+.ustensils p {
+
+    margin-left: 10px;
+
+}
+
+
+
+.partenaire {
+
+    margin-top: 10px;
+    display: flex;
+}
+
+
+.partenaire p {
+
+    margin-left: 4px;
+
+}
+
+
+
+.legales span {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
