@@ -257,7 +257,8 @@ i {
     box-shadow: 0 23px 5px -20px rgba(0,0,0,0.20);
     margin-left: -6px;
     transition: .5s;
-    animation: deroulé 3s;
+    animation: deroulé 3s forwards;
+    opacity: 0;
     cursor: pointer;
 }
 
@@ -282,6 +283,90 @@ i {
 
 
 } 
+
+
+
+
+.description:nth-child(1) {
+
+    animation-delay: 0s;
+    
+}
+
+
+.description:nth-child(2) {
+
+    animation-delay: 0.5s;
+
+}
+
+
+.description:nth-child(3) {
+
+    animation-delay: 1.0s;
+
+}
+
+
+.description:nth-child(4) {
+
+    animation-delay: 1.5s;
+
+}
+
+
+.description:nth-child(6) {
+
+    animation-delay: 2s;
+
+}
+
+
+
+.description:nth-child(7) {
+
+    animation-delay: 2.5s;
+
+}
+
+
+.description:nth-child(8) {
+
+    animation-delay: 3s;
+
+}
+
+
+
+.description:nth-child(9) {
+
+    animation-delay: 3.5s;
+
+}
+
+
+.description:nth-child(10) {
+
+    animation-delay: 4s;
+
+}
+
+
+.description:nth-child(11) {
+
+    animation-delay: 4.5s;
+
+}
+
+.description:nth-child(12) {
+
+    animation-delay: 5s;
+
+}
+
+
+
+
 
 
 
@@ -357,8 +442,9 @@ i {
 
 .btn:hover {
 
-    transition: opacity 0.2s linear;
-    opacity: 0.7;
+    transition: opacity 0.3s linear;
+    box-shadow: -1px 10px 10px -3px rgba(0,0,0,0.39);
+    opacity: 0.8;
 
 }
 
@@ -438,6 +524,16 @@ footer img {
 
 
 .legales span {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+
+
+
+.contact {
 
     display: flex;
     flex-direction: column;
