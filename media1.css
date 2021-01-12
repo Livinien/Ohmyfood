@@ -69,11 +69,41 @@
 
 
 
-    footer  {
+   
+    footer .container {
+
+        
+        background: #3f3e3e;
+        text-align: center;
+
+    }
+
+
+
+    .logo {
 
         display: flex;
         justify-content: center;
-        text-align: center;
+
+    }
+
+
+
+    .liens1 {
+
+        display: flex;
+        justify-content: center;
+        
+    }
+
+
+    .liens2 {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10px;
+        padding-left: 40px;
 
     }
 
