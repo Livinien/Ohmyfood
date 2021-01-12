@@ -398,11 +398,20 @@ i {
                     /* FOOTER */
 
 
+
 footer {
 
     background: #3f3e3e;
     color: white;
-    padding: 0px 0px 40px 0px ;
+    padding: 0px 0px 30px 0px ;
+    
+}
+
+
+footer .container {
+
+    padding-top: 30px;
+
 }
 
 
@@ -411,6 +420,8 @@ footer img {
     width: 100px;
     filter: invert(100%);
     
+    
+
 }
 
 
@@ -452,6 +463,16 @@ footer img {
 
 
 .legales span {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+
+
+
+.contact {
 
     display: flex;
     flex-direction: column;
