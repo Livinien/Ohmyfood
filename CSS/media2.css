@@ -23,11 +23,21 @@
 
     .container {
 
-       
-        padding-top: 20px;
+        margin-top: -50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        
         
     }
-
+    
+    
+    .container section {
+    
+        width: 100%;
+    
+    }
 
 
     #couverture {

@@ -89,6 +89,7 @@ header img {
     right: 20px;
     bottom: 30px;
     border-radius: 30px 30px 0px 0px;
+    margin-right: -19.5px;
     background: #f2f2f2;
     
 }
@@ -177,37 +178,99 @@ i {
                         /* MENU */
 
 
+.couverture {
+
+    z-index: -1;
+    height: 400px;
+
+}
+
+
+.couverture img {
+
+    z-index: -1;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    
+
+}
+
+
+.container i {
+
+    color: grey;
+    font-size: 25px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: normal;
+    font-style: normal;
+    cursor: pointer;
+    
+}
+
+
+
+.container i:hover {
+
+    opacity: 1;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#9356dc, #fa79da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 
 
 .container {
 
-    padding-left: 20px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    background: #f2f2f2;
+    margin-top: -50px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    border-radius: 20px 20px 0 0;
     
 }
+
+
+.container section {
+
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+
+h1 {
+  
+    font-family: 'shrikhand';
+    font-size: 25px;
+    
+  }
+  
+  h2 {
+    
+    font-weight: 500;
+    font-size: 15px;
+    
+  }
 
 
 
 .green_border {
 
     border-bottom: solid #8ff3da;
-    width: 45px;
-    
+    width: 38px;
+    padding-bottom: 3px;
 }
-
-
-.green_border:nth-child(5) {
-
-    margin-top: 40px;
-
-}
-
-
-.green_border:nth-child(9) {
-
-    margin-top: 40px;
-
-}
-
 
 
 
@@ -235,13 +298,6 @@ i {
 
 /* POUR TOUTES LES PAGES */
 
-.menu h2 {
-
-    font-weight: lighter;
-    font-size: 17px;
-    padding-bottom: 5px;
-
-}
 
 
 .description {
@@ -250,7 +306,7 @@ i {
     background: #fff;
     border-radius: 15px;
     padding: 10px;
-    width: 97%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     box-shadow: 0 23px 5px -20px rgba(0,0,0,0.20);
@@ -367,16 +423,6 @@ i {
 
 
 
-
-
-
-
-
-
-
-
-
-
 .plats {
 
     width: 95%;
@@ -410,13 +456,37 @@ i {
 
 
 
-
-
-.bouton {
+.check {
 
     display: flex;
     justify-content: center;
-    padding: 10px 0px 0px 0px ;
+    align-items: center;
+    margin: -10px -10px -10px 10px;
+    width: 50%;
+    color: #fff;
+    border-radius: 0 15px 15px 0;
+    background: #99e2d0;
+
+}
+
+.check i:hover {
+
+    
+
+}
+
+
+
+
+
+
+.boutton  {
+
+    display: flex;
+    justify-content: center;
+    
+    
+    
 
 }
 
@@ -463,14 +533,13 @@ footer {
 
     background: #3f3e3e;
     color: white;
-    padding: 0px 0px 30px 0px ;
     
 }
 
 
-footer .container {
+footer .fin {
 
-    padding-top: 30px;
+    padding: 30px;
 
 }
 
