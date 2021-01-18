@@ -18,15 +18,20 @@ body {
 
 
 
-                        
+
                             /* LOADING... */
+
 
 .chargement {
 
-    background: red;
-    
-}
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10000;
+    background: rgba(255, 255, 255, 0.7);
 
+}
+ 
 
 
 
@@ -39,78 +44,81 @@ body {
     height: 40px;
     display: flex;
     align-items: center;
-    opacity: 0.9;
+    
 }
 
 
 .obj {
-    
+
     width: 6px;
     height: 40px;
     background: #ff66b3;
     margin: 0 3px;
     border-radius: 10px;
-    animation: load 3s forwards;
+    animation: load 0.5s forwards;
+    animation-iteration-count: 6;
+    
+    
 }
 
 
 
 .obj:nth-child(1) {
-    
+
     background: #66b3ff;
-    
+
 }
 
 
 .obj:nth-child(2) {
-    
+
     background: #ff79da;
-    animation-delay: 0.1s;  
-    
+    animation-delay: 0.1s;
+
 }
 
 .obj:nth-child(3) {
-    
+
     background: #9356dc;
-    animation-delay: 0.2s;  
-    
+    animation-delay: 0.2s;
+
 }
 
 .obj:nth-child(4) {
-    
+
     background: #99e2d0;
-    animation-delay: 0.3s;  
-    
+    animation-delay: 0.3s;
+
 }
 
 
 .obj:nth-child(5) {
-    
+
     background: #66b3ff;
-    animation-delay: 0.4s;  
-    
+    animation-delay: 0.4s;
+
 }
 
 
 .obj:nth-child(6) {
-    
+
     background: #ff79da;
-    animation-delay: 0.5s;  
-    
+    animation-delay: 0.5s;
+
 }
 
 .obj:nth-child(7) {
-    
+
     background: #9356dc;
-    animation-delay: 0.6s;  
-    
+    animation-delay: 0.6s;
+
 }
 
 .obj:nth-child(8) {
-    
+
     background: #99e2d0;
-    animation-delay: 0.7s;  
-    
+    animation-delay: 0.7s;
+
 }
 
 
@@ -118,28 +126,28 @@ body {
 
 
 @keyframes load {
-    
-    0% {
-    
-        height: 0;
-    
-    }
-    
-    
-    50% {
-    
-        height: 40px;
-    
-    }
-    
 
-    
-    100% {
-    
+    0% {
+
         height: 0;
-    
+
     }
-    
+
+
+    50% {
+
+        height: 40px;
+
+    }
+
+
+
+    100% {
+
+        height: 0;
+
+    }
+
 }
 
 
@@ -172,7 +180,7 @@ header img {
     width: 250px;
 
 }
-                        
+
 
 
 
@@ -190,14 +198,14 @@ header img {
     font-size: 11px;
     font-weight: bold;
     box-shadow: inset 0 23px 5px -20px rgba(0,0,0,0.20);
-    
+
 }
 
 
 #presentation i {
 
     font-size: 18px;
-    
+
 
 }
 
@@ -233,14 +241,14 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 
 
 #reservation h1 {
 
-    
+
     font-size: 20px;
     font-weight: bold;
     padding-top: 40px;
@@ -286,7 +294,7 @@ header img {
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 30px;
-    
+
 }
 
 
@@ -296,7 +304,7 @@ header img {
     padding-top: 20px;
     font-size: 11px;
     width: 100%;
-    
+
 }
 
 
@@ -336,7 +344,7 @@ header img {
 
 .case span{
 
-    
+
     color: #fff;
     border-radius: 50%;
     width: 28px;
@@ -346,7 +354,7 @@ header img {
     margin-left: -14px ;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 
@@ -362,7 +370,7 @@ header img {
 .case:hover {
 
     background: #f9e6ff;
-    
+
 }
 
 
@@ -385,7 +393,7 @@ header img {
 
     margin-top: 70px;
     background: #f2f2f2;
-    
+
 }
 
 
@@ -393,7 +401,7 @@ header img {
 #restaurants .container {
 
     padding: 50px 0px 50px;
-    
+
 }
 
 
@@ -407,7 +415,7 @@ header img {
     height: 230px;
     border-radius: 10px 10px 15px 15px;
     cursor: pointer;
-        
+
 }
 
 
@@ -427,7 +435,7 @@ header img {
 .menu_title_container {
 
     display: flex;
-        
+
 }
 
 
@@ -443,7 +451,7 @@ a {
 
     text-decoration: none;
     color: inherit;
-    
+
 
 }
 
@@ -453,7 +461,7 @@ a {
     width: 20%;
     margin-right: 10px;
     color: grey;
-    
+
 }
 
 
@@ -491,14 +499,14 @@ i {
     font-weight: normal;
     font-style: normal;
     display: flex;
-    
+
 }
 
 
 .menu_title_icon:hover i {
 
     font-weight: bold;
-    
+
 }
 
 
@@ -538,7 +546,7 @@ footer {
     background: #3f3e3e;
     color: white;
     padding: 0px 0px 30px 0px ;
-    
+
 }
 
 
@@ -553,8 +561,8 @@ footer img {
 
     width: 100px;
     filter: invert(100%);
-    
-    
+
+
 
 }
 
@@ -601,7 +609,7 @@ footer img {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    
+
 }
 
 
@@ -611,5 +619,5 @@ footer img {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    
+
 }
