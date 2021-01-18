@@ -317,6 +317,7 @@ h1 {
     overflow-x: hidden;
     overflow-y: hidden;
     cursor: pointer;
+    
 }
 
 
@@ -343,6 +344,7 @@ h1 {
 
 
 
+/* ENTRÉE */
 
 
 
@@ -366,6 +368,24 @@ h1 {
 
 }
 
+
+
+/* PLATS */
+
+
+
+.description:nth-child(7) {
+
+    animation-delay: 5s;
+
+}
+
+
+
+
+
+
+/* DESSERTS */
 
 
 
@@ -424,7 +444,6 @@ h1 {
     justify-content: center;
     align-items: center;
     animation: check 1s linear forwards;
-    
 }
 
 
@@ -445,9 +464,38 @@ h1 {
 
     }
 
-      
+
 
 }
+
+
+
+
+
+@keyframes description {
+
+    0% {
+
+        right: 0px;
+
+    }
+
+
+    100% {
+
+        right: -61px;
+        
+
+    }
+
+
+
+}
+
+
+
+
+
 
 
 
