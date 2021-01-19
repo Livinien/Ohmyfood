@@ -198,7 +198,7 @@ i {
 }
 
 
-.container i {
+.container .coeur i {
 
     color: grey;
     font-size: 25px;
@@ -211,7 +211,7 @@ i {
 
 
 
-.container i:hover {
+.container .coeur i:hover {
 
     opacity: 1;
     font-weight: bold;
@@ -515,7 +515,9 @@ h2 {
     justify-content: center;
     align-items: center;
     animation: check 1s linear forwards;
+    
 }
+
 
 
 
@@ -523,8 +525,8 @@ h2 {
 
     0% {
 
-        right: -61px;
-
+        right: -100px;
+        
     }
 
 
@@ -543,32 +545,13 @@ h2 {
 
 
 
-@keyframes description {
-
-    0% {
-
-        right: 0px;
-
-    }
 
 
-    100% {
+.check i {
 
-        right: -61px;
-        
-
-    }
-
-
+    font-size: 25px;
 
 }
-
-
-
-
-
-
-
 
 
 
@@ -576,12 +559,9 @@ h2 {
 .description:hover .check {
 
     display: flex;
-    animation: check .3s linear forwards;
-
+    animation: check .4s linear forwards;
+    
 }
-
-
-
 
 
 
@@ -591,7 +571,7 @@ h2 {
 
     0% {
 
-        transform: rotate(180deg);
+        transform: rotate(360deg);
 
     }
 
@@ -609,7 +589,7 @@ h2 {
 .description:hover .check .fas {
 
     display: flex;
-    animation: rotate .3s linear forwards;
+    animation: rotate .4s linear forwards;
 
 
 }
