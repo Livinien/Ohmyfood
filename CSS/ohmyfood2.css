@@ -244,8 +244,7 @@ i {
 .container section {
 
     width: 100%;
-    margin-top: 30px;
-
+    
 }
 
 
@@ -255,13 +254,16 @@ h1 {
     font-size: 25px;
     
   }
+
+
   
-  h2 {
-    
+h2 {
+
     font-weight: 500;
     font-size: 15px;
-    
-  }
+    padding-top: 30px;
+
+}
 
 
 
@@ -346,8 +348,6 @@ h1 {
 
 /* ENTRÉE */
 
-
-
 .description:nth-child(2) {
 
     animation-delay: 0.5s;
@@ -355,14 +355,14 @@ h1 {
 }
 
 
-.description:nth-child(4) {
+.description:nth-child(3) {
 
     animation-delay: 1.0s;
 
 }
 
 
-.description:nth-child(5) {
+.description:nth-child(4) {
 
     animation-delay: 1.5s;
 
@@ -370,13 +370,12 @@ h1 {
 
 
 
-/* PLATS */
+/* LA NOTE ENCHANTÉE */
 
 
+.description:nth-child(5) {
 
-.description:nth-child(7) {
-
-    animation-delay: 5s;
+    animation-delay: 1.8s;
 
 }
 
@@ -384,11 +383,83 @@ h1 {
 
 
 
+/* PLATS */
+
+
+ 
+.description:nth-child(6) {
+
+    animation-delay: 2s;
+
+}
+
+
+.description:nth-child(7) {
+
+    animation-delay: 2.5s;
+
+}
+
+.description:nth-child(8) {
+
+    animation-delay: 3s;
+
+}
+
+ 
+
+/* LA NOTE ENCHANTÉE */
+
+
+.description:nth-child(9) {
+
+    animation-delay: 3.4s;
+
+}
+
+ 
+
+
+
 
 /* DESSERTS */
 
 
+.description:nth-child(10) {
 
+    animation-delay: 3.5s;
+
+}
+
+
+.description:nth-child(11) {
+
+    animation-delay: 4s;
+
+}
+
+
+.description:nth-child(12) {
+
+    animation-delay: 4.5s;
+
+}
+
+
+
+
+/* LA NOTE ENCHANTÉE */
+
+
+.description:nth-child(13) {
+
+    animation-delay: 5s;
+
+}
+
+ 
+
+ 
 
 
 
