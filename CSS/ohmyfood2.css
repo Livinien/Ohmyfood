@@ -513,7 +513,6 @@ h2 {
     display: none;
     justify-content: center;
     align-items: center;
-    animation: check 1s linear forwards;
     
 }
 
@@ -543,17 +542,6 @@ h2 {
 
 
 
-
-
-.check i {
-
-    font-size: 25px;
-
-}
-
-
-
-
 .description:hover .check {
 
     display: flex;
@@ -561,6 +549,15 @@ h2 {
     
 }
 
+
+
+
+
+.check i {
+
+    font-size: 25px;
+
+}
 
 
 
