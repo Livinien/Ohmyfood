@@ -29,7 +29,7 @@ body {
     height: 100vh;
     z-index: 10000;
     background: rgba(255, 255, 255, 0.7);
-    animation: chargement 3.8s forwards;
+    animation: chargement 3s forwards;
 }
  
 
@@ -307,6 +307,16 @@ header img {
     border: 0px;
     cursor: pointer;
 }
+
+
+.bouton button:hover {
+
+    transition: opacity 0.3s linear;
+    box-shadow: -1px 10px 10px -3px rgba(0,0,0,0.39);
+    opacity: 0.8;
+
+}
+
 
 
 

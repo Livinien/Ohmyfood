@@ -493,9 +493,8 @@ h2 {
     height: 100%;
     margin-right: 10px;
     font-weight: bold;
-
+    
 }
-
 
 
 
@@ -534,7 +533,6 @@ h2 {
 
         right: 0px;
         
-
     }
 
 
@@ -596,7 +594,9 @@ h2 {
 
 
 
-strong, span {
+/* A mettre dans la div "plats" */
+
+strong, span {   
 
     text-overflow: ellipsis;
     line-height: 20px;
