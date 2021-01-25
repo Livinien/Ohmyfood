@@ -480,9 +480,9 @@ h2 {
 
     display: flex;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 5px;
-    color: grey;
+    color: #404040;
     
 
 }
@@ -594,15 +594,10 @@ h2 {
 
 
 
-
-
-.boutton  {
+.bouton {
 
     display: flex;
     justify-content: center;
-    
-    
-    
 
 }
 
