@@ -314,7 +314,7 @@ h2 {
     box-shadow: 0 23px 5px -20px rgba(0,0,0,0.20);
     margin-left: -6px;
     transition: .5s;
-    animation: deroulé 3s forwards;
+    animation: deroule 3s forwards;
     opacity: 0;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -323,7 +323,7 @@ h2 {
 }
 
 
-@keyframes deroulé {
+@keyframes deroule {
     
     0% {
 
