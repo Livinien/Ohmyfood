@@ -584,8 +584,18 @@ h2 {
 
 .plats {   
 
-    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: column;
     line-height: 20px;
+    
+}
+
+
+
+.plats span, .plats strong {
+
+    display: inline;
+    text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
 
@@ -593,12 +603,11 @@ h2 {
 
 
 
-
 .bouton {
 
     display: flex;
     justify-content: center;
-
+    width: 100%;
 }
 
 
