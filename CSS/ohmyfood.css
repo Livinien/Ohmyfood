@@ -28,7 +28,7 @@ body {
     width: 100vw;
     height: 100vh;
     z-index: 10000;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 10);
     animation: chargement 3s forwards;
 }
  
@@ -551,7 +551,8 @@ i {
     background: -webkit-linear-gradient(#FF79DA, #9356DC);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
 }
 
 

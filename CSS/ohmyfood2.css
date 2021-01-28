@@ -169,6 +169,8 @@ i {
     background: -webkit-linear-gradient(#9356dc, #fa79da);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
 
 }
 
@@ -218,6 +220,8 @@ i {
     background: -webkit-linear-gradient(#9356dc, #fa79da);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
 }
 
 
